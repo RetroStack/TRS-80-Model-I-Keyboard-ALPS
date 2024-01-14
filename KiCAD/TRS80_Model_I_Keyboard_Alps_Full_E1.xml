@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/marcel/Library/Mobile Documents/com~apple~CloudDocs/RetroStack/KiCAD/TRS80_Model_I/Keyboard_Alps_Full_E1/KiCAD/TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch</source>
+    <date>2024 January 13, Saturday 20:50:11</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TRS-80 Model I Keyboard Alps Full</title>
+        <company>RetroStack - Marcel Erz</company>
+        <rev>E1A</rev>
+        <date>2023-12-22</date>
+        <source>TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Complete Keyboard"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_C_Disc_9.5L_4W_6P_Small</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d37c49-2d9e-4234-be09-d4a508a48518</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_C_Disc_9.5L_4W_6P_Small</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5905d50d-0c51-48b3-b3a1-d780e3bcd866</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>RED 5mm</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76328c45-24ae-4872-b78e-df0d78251b05</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Connection Keyboad Side</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18e2e9ac-83ca-426a-9f0c-f794affa6d1e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Array_SIP9</footprint>
+      <datasheet>http://www.vishay.com/docs/31509/csc.pdf</datasheet>
+      <libsource lib="Device" part="R_Network08_Split" description="8 resistor network, star topology, bussed resistors, split"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="8 resistor network, star topology, bussed resistors, split"/>
+      <property name="ki_keywords" value="R network star-topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dac0fd6-8bd3-4a9d-871a-94d82a364937 77fc05f1-9775-4172-8501-0f081b938a03 3758bb37-1f52-45df-b7fc-a3258903fa6b 2308204e-83b6-42e3-8966-0464269ef17e 6c11ccf5-75a4-426e-ad1b-8cc394f98e2e 211c22c3-cd8f-4f3d-bad6-ea659adfe71a 184ce896-a966-4913-ace1-c2bdd97bcdf0 0347228a-c823-4132-840c-84738136dede</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_R_0.25W</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a55a1974-840a-427b-a98a-7faab7604837</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>@</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08a8aa1e-a423-45c5-9c4f-5d7f83c3270b</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>H</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de4ff45b-781f-458a-a17f-76a7fb1c377c</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>P</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47b7ac65-3837-4280-af76-dda2916715f9</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>X</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb6f4596-98e4-4c94-a542-08f574dccdfd</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>0</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2d3b16-64d5-4e2f-a8d6-fcd9116b6d45</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>8</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1af10398-7e90-4808-8a13-d6f3bca93c90</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>ENTER</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e5ce051-f574-47bb-b0fd-58a354edadcc</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>LSHIFT</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d278c012-af66-40dd-82ca-ed536651ed0e</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>RSHIFT</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0963bd26-acb8-4736-9b96-93b96dfcb999</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>A</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50b95bf1-874a-4365-85b2-760ce0cf3c9c</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>I</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c1179ae-1f47-4a7b-a7d7-ab4de4261e28</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>Q</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75c2970c-2099-4a1a-ab15-119f272bed0f</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>Y</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2fdfef2-509b-42d2-be81-33bfc423fe45</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>1</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a296879-c3b9-4c3d-a1c3-9d8b83fa7b65</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>9</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90b92788-6efc-4c4f-a0c2-a654077a0f28</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>CLEAR</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8ed0a52-4370-4ede-a0a7-cc5a93d4dd86</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>B</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cf425bb-6b05-4703-8935-6ce72bd90123</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>J</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e708ca9a-b57a-4411-84f0-95fe09db6d27</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>R</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4fd857a-f37e-4ce3-97e6-9cb89ec3415c</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>Z</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cfe7a46-d750-4d9d-89c7-8589aedaa69e</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>2</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1adcb2ad-3c2a-4543-99e0-62a34713a835</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>:</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df1bf225-a45f-49fe-b05b-b4ce0ce662f6</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>BREAK</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34cc6fbd-6a50-483e-8bea-1fe372ce2998</tstamps>
+    </comp>
+    <comp ref="SW24">
+      <value>C</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8c6e1c0-7ea1-4454-b39b-c4704e5861d8</tstamps>
+    </comp>
+    <comp ref="SW25">
+      <value>K</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de7e734c-2aa8-44d0-b649-d5ab1587de8b</tstamps>
+    </comp>
+    <comp ref="SW26">
+      <value>S</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3ae2ae9-27ed-4bb7-8e7f-76b35205fda5</tstamps>
+    </comp>
+    <comp ref="SW27">
+      <value>3</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12dad1fb-4eaf-49e6-b8d7-60e6bc9ed78b</tstamps>
+    </comp>
+    <comp ref="SW28">
+      <value>;</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b249c6a-ab50-47e1-b505-024381ba692e</tstamps>
+    </comp>
+    <comp ref="SW29">
+      <value>UP</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f7e2b97-bde2-4058-9e88-fa4677991485</tstamps>
+    </comp>
+    <comp ref="SW30">
+      <value>D</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42022665-37b9-4537-a3c8-a0a622603cf6</tstamps>
+    </comp>
+    <comp ref="SW31">
+      <value>L</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d9daa05-2580-49b0-b028-675f34255113</tstamps>
+    </comp>
+    <comp ref="SW32">
+      <value>T</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>782cce34-eff6-40f2-b0ac-5f58e3fb1afa</tstamps>
+    </comp>
+    <comp ref="SW33">
+      <value>4</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c722b4f4-1d92-4917-9194-84b70d7974d7</tstamps>
+    </comp>
+    <comp ref="SW34">
+      <value>,</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97393984-e651-478e-a9b3-5acd639d9623</tstamps>
+    </comp>
+    <comp ref="SW35">
+      <value>DOWN</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d374b88-7ee0-4fb9-b827-95569558d862</tstamps>
+    </comp>
+    <comp ref="SW36">
+      <value>E</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93a25619-fa1f-4ea0-a375-42b7edf6b125</tstamps>
+    </comp>
+    <comp ref="SW37">
+      <value>M</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>714e022c-5582-4308-a4b2-5879ece2d0e3</tstamps>
+    </comp>
+    <comp ref="SW38">
+      <value>U</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce8a6f42-4a09-42ad-b9a4-70426173382b</tstamps>
+    </comp>
+    <comp ref="SW39">
+      <value>5</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2641053d-cf00-4f7c-bc8f-5e0a038c2040</tstamps>
+    </comp>
+    <comp ref="SW40">
+      <value>-</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98cd291b-93f4-4971-901d-ee240895fc27</tstamps>
+    </comp>
+    <comp ref="SW41">
+      <value>LEFT</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>388c0212-fbed-4ec7-846e-7d8fb936d977</tstamps>
+    </comp>
+    <comp ref="SW42">
+      <value>F</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>369048e2-ba75-48d4-bf68-5d503ab627e0</tstamps>
+    </comp>
+    <comp ref="SW43">
+      <value>N</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b84a2ce-324f-4b63-950d-6b614fd08cd0</tstamps>
+    </comp>
+    <comp ref="SW44">
+      <value>V</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8a79a01-05d5-4898-9cf8-ddbdc475f319</tstamps>
+    </comp>
+    <comp ref="SW45">
+      <value>6</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84a642b8-65ac-4b52-ba5f-89f8080d23ed</tstamps>
+    </comp>
+    <comp ref="SW46">
+      <value>.</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>723e541c-96ee-44f1-bf15-cc24086b53c0</tstamps>
+    </comp>
+    <comp ref="SW47">
+      <value>RIGHT</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5638c6ee-0b65-4691-b415-dc7a5af2aece</tstamps>
+    </comp>
+    <comp ref="SW48">
+      <value>G</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5cf32e1-d155-47f8-a57e-c17391cc1737</tstamps>
+    </comp>
+    <comp ref="SW49">
+      <value>O</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c95c5a92-6ea7-485d-ac64-7f6a711c3313</tstamps>
+    </comp>
+    <comp ref="SW50">
+      <value>W</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b9f3f9-765a-49c0-b28c-4eabb70a6a0b</tstamps>
+    </comp>
+    <comp ref="SW51">
+      <value>7</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52c6715c-f5a3-4e35-b591-565c0efb8705</tstamps>
+    </comp>
+    <comp ref="SW52">
+      <value>/</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>821507b6-1125-4972-b7bd-b66952e63933</tstamps>
+    </comp>
+    <comp ref="SW53">
+      <value>SPACE</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af3441a2-52b8-439a-997a-f2cf9596abff</tstamps>
+    </comp>
+    <comp ref="SW54">
+      <value>0</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dbe6b6a-d45d-4d1b-b9fa-4c00a31a7287</tstamps>
+    </comp>
+    <comp ref="SW55">
+      <value>8</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>796cc9f1-b7af-4b7b-95dd-c5a484265339</tstamps>
+    </comp>
+    <comp ref="SW56">
+      <value>ENTER</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1d3426e-fbf2-4bbd-9f78-b1f773e20e81</tstamps>
+    </comp>
+    <comp ref="SW57">
+      <value>1</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baefb63d-4589-4c37-851b-b36b2fac0132</tstamps>
+    </comp>
+    <comp ref="SW58">
+      <value>9</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64465146-bc2b-4c71-929f-374fee5c9064</tstamps>
+    </comp>
+    <comp ref="SW59">
+      <value>2</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d11077c8-ed5f-477d-8642-68379caaba44</tstamps>
+    </comp>
+    <comp ref="SW60">
+      <value>3</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1ed84f0-b82b-473e-a3ae-108fccaadc80</tstamps>
+    </comp>
+    <comp ref="SW61">
+      <value>4</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>451f6d03-5c7c-4de6-9e12-cb2ac3c70e1c</tstamps>
+    </comp>
+    <comp ref="SW62">
+      <value>5</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57828104-a06a-41a5-8720-a3199414517e</tstamps>
+    </comp>
+    <comp ref="SW63">
+      <value>6</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e170eec5-e10a-4a9b-9cf6-233b45903762</tstamps>
+    </comp>
+    <comp ref="SW64">
+      <value>.</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29eca9db-f099-47ea-81cb-0193fd0554cb</tstamps>
+    </comp>
+    <comp ref="SW65">
+      <value>7</value>
+      <footprint>Button_Switch_Keyboard:SW_Matias_1.00u</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2f80409-ac5d-460b-bced-c2317d6d7f4c</tstamps>
+    </comp>
+    <comp ref="Z1">
+      <value>74LS05</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_DIP14</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS05</datasheet>
+      <libsource lib="74xx" part="74LS05" description="Inverter Open Collect"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Inverter Open Collect"/>
+      <property name="ki_keywords" value="TTL not inv OpenCol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e959da3e-a5ea-4657-a4d8-03c0d0032739 e943f681-d6e5-4523-b47f-c8055ca0b252 a6050874-5bdb-45a5-ba72-f9dc4c642f9c 8cedb917-4bd6-4239-b89c-dc5f6e9dc643 e69d3a9a-6eb4-4f9d-a49f-ace3f661d0dc a00d177f-d170-4b57-9f52-26787c581347 411a4ab5-b755-4edc-9c52-4ac9a9c04c93</tstamps>
+    </comp>
+    <comp ref="Z2">
+      <value>74LS05</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_DIP14</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS05</datasheet>
+      <libsource lib="74xx" part="74LS05" description="Inverter Open Collect"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Inverter Open Collect"/>
+      <property name="ki_keywords" value="TTL not inv OpenCol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8679aeba-ad61-464c-993b-1f409bc7b38e 61da317d-a4c2-40e5-84a4-1f46e99768f4 0e61102b-6c82-4c86-a9e2-3e8b44754b6b a05b5ac1-cb18-4db6-bcf1-da900a3ae01e be3e38fe-ee82-4c9a-be8e-1e3d11dec08c 24ff7302-efee-4a6c-955d-f85222c5571b 08928bb0-17a6-458c-b7c8-6f4e51515e63</tstamps>
+    </comp>
+    <comp ref="Z3">
+      <value>74LS368</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_DIP16</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls367a.pdf</datasheet>
+      <libsource lib="RetroStackLibrary" part="74LS368_Split" description="Hex buffer 3-State outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Hex buffer 3-State outputs"/>
+      <property name="ki_keywords" value="TTL buffer 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6c615d6-0db3-44d0-a50e-03d6d860052d da08515f-24fe-4624-b390-ce145da9dea0 a0f94816-1083-409e-b568-bb471fb0fcde 9d5bf449-89a2-4df1-9111-3621cd5ee79b a6186c3b-bd70-4b66-b65e-a63e7973e766 d6abac67-02e2-44df-a79e-3deaf0d41364 983738b5-7ca4-4221-b987-e761903420e7</tstamps>
+    </comp>
+    <comp ref="Z4">
+      <value>74LS368</value>
+      <footprint>RetroStackLibrary:TRS80_Model_I_DIP16</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ls367a.pdf</datasheet>
+      <libsource lib="RetroStackLibrary" part="74LS368_Split" description="Hex buffer 3-State outputs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TRS80_Model_I_Keyboard_Alps_Full_E1.kicad_sch"/>
+      <property name="ki_description" value="Hex buffer 3-State outputs"/>
+      <property name="ki_keywords" value="TTL buffer 3State"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>989bc4cb-ea21-47a5-8f04-8d05294b0c70 8854a262-4fc1-45cd-8e21-c81da95a77e7 6fa23caf-8919-470a-a879-e83caaf55382 8330aea7-6459-4102-81b1-dc09feb84e7b c39c5b6b-61e0-4843-8077-b6e5e483c63c dd8ee4cf-bff3-4a90-8eb1-f53b7b8cd89b 24431c70-06e4-4eb9-bc5c-bb4f7564ebfd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS05">
+      <description>Inverter Open Collect</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS05</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS05</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74LS05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="open_collector"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="open_collector"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="open_collector"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="open_collector"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="open_collector"/>
+        <pin num="11" name="" type="input"/>
+        <pin num="12" name="" type="open_collector"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x20">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Network08_Split">
+      <description>8 resistor network, star topology, bussed resistors, split</description>
+      <docs>http://www.vishay.com/docs/31509/csc.pdf</docs>
+      <footprints>
+        <fp>R?Array?SIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network08_Split</field>
+        <field name="Footprint">Resistor_THT:R_Array_SIP9</field>
+        <field name="Datasheet">http://www.vishay.com/docs/31509/csc.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1" type="passive"/>
+        <pin num="2" name="R1.2" type="passive"/>
+        <pin num="3" name="R2.2" type="passive"/>
+        <pin num="4" name="R3.2" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R5.2" type="passive"/>
+        <pin num="7" name="R6.2" type="passive"/>
+        <pin num="8" name="R7.2" type="passive"/>
+        <pin num="9" name="R8.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RetroStackLibrary" part="74LS368_Split">
+      <description>Hex buffer 3-State outputs</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ls367a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS368_Split</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ls367a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="tri_state"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="tri_state"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="" type="tri_state"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="tri_state"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="tri_state"/>
+        <pin num="14" name="" type="input"/>
+        <pin num="15" name="" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="RetroStackLibrary">
+      <uri>/Users/marcel/Library/Mobile Documents/com~apple~CloudDocs/Projects/KiCAD/RetroStack/Libraries/RetroStackLibrary.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="R1" pintype="passive"/>
+      <node ref="Z1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Z2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Z3" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Z4" pin="16" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/A0">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Z1" pin="9" pintype="input"/>
+    </net>
+    <net code="3" name="/A1">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Z1" pin="11" pintype="input"/>
+    </net>
+    <net code="4" name="/A2">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Z2" pin="5" pintype="input"/>
+    </net>
+    <net code="5" name="/A3">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Z2" pin="9" pintype="input"/>
+    </net>
+    <net code="6" name="/A4">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Z1" pin="5" pintype="input"/>
+    </net>
+    <net code="7" name="/A5">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Z1" pin="3" pintype="input"/>
+    </net>
+    <net code="8" name="/A6">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Z2" pin="3" pintype="input"/>
+    </net>
+    <net code="9" name="/A7">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Z2" pin="11" pintype="input"/>
+    </net>
+    <net code="10" name="/D0">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="Z3" pin="5" pintype="tri_state"/>
+    </net>
+    <net code="11" name="/D1">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="Z4" pin="5" pintype="tri_state"/>
+    </net>
+    <net code="12" name="/D2">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Z3" pin="3" pintype="tri_state"/>
+    </net>
+    <net code="13" name="/D3">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="Z3" pin="9" pintype="tri_state"/>
+    </net>
+    <net code="14" name="/D4">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="Z4" pin="9" pintype="tri_state"/>
+    </net>
+    <net code="15" name="/D5">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="Z3" pin="7" pintype="tri_state"/>
+    </net>
+    <net code="16" name="/D6">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="Z4" pin="3" pintype="tri_state"/>
+    </net>
+    <net code="17" name="/D7">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="Z4" pin="7" pintype="tri_state"/>
+    </net>
+    <net code="18" name="/~{KYBD}">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="Z3" pin="1" pintype="input"/>
+      <node ref="Z4" pin="1" pintype="input"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="Z1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Z2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Z3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="Z4" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(CR1-K)">
+      <node ref="CR1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R1A-R1.2)">
+      <node ref="R1" pin="2" pinfunction="R1.2" pintype="passive"/>
+      <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW34" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW35" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW61" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z4" pin="10" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(R1B-R2.2)">
+      <node ref="R1" pin="3" pinfunction="R2.2" pintype="passive"/>
+      <node ref="SW48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW49" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW50" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW51" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW52" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW53" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW65" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z4" pin="6" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(R1C-R3.2)">
+      <node ref="R1" pin="4" pinfunction="R3.2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW57" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW58" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z4" pin="4" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(R1D-R4.2)">
+      <node ref="R1" pin="5" pinfunction="R4.2" pintype="passive"/>
+      <node ref="SW42" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW43" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW44" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW45" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW46" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW47" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW63" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW64" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z4" pin="2" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(R1E-R5.2)">
+      <node ref="R1" pin="6" pinfunction="R5.2" pintype="passive"/>
+      <node ref="SW24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW60" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z3" pin="10" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(R1F-R6.2)">
+      <node ref="R1" pin="7" pinfunction="R6.2" pintype="passive"/>
+      <node ref="SW36" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW37" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW38" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW39" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW40" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW41" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW62" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z3" pin="6" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(R1G-R7.2)">
+      <node ref="R1" pin="8" pinfunction="R7.2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW54" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW55" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW56" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z3" pin="4" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(R1H-R8.2)">
+      <node ref="R1" pin="9" pinfunction="R8.2" pintype="passive"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW59" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z3" pin="2" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW36" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW42" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW48" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z1" pin="8" pintype="open_collector"/>
+    </net>
+    <net code="30" name="Net-(SW8-Pad2)">
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z2" pin="10" pintype="open_collector"/>
+    </net>
+    <net code="31" name="Net-(SW11-Pad2)">
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW37" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW43" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW49" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z1" pin="10" pintype="open_collector"/>
+    </net>
+    <net code="32" name="Net-(SW12-Pad2)">
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW38" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW44" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW50" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z2" pin="6" pintype="open_collector"/>
+    </net>
+    <net code="33" name="Net-(SW13-Pad2)">
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z2" pin="8" pintype="open_collector"/>
+    </net>
+    <net code="34" name="Net-(SW14-Pad2)">
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW33" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW39" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW45" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW51" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW54" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW57" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW59" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW60" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW61" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW62" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW63" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW65" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z1" pin="6" pintype="open_collector"/>
+    </net>
+    <net code="35" name="Net-(SW15-Pad2)">
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW34" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW40" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW46" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW52" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW55" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW58" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW64" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Z1" pin="4" pintype="open_collector"/>
+    </net>
+    <net code="36" name="Net-(SW16-Pad1)">
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW35" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW41" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW47" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW53" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW56" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Z2" pin="4" pintype="open_collector"/>
+    </net>
+    <net code="37" name="unconnected-(J1-Pin_20-Pad20)">
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(Z1-Pad1)">
+      <node ref="Z1" pin="1" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(Z1-Pad2)">
+      <node ref="Z1" pin="2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(Z1-Pad12)">
+      <node ref="Z1" pin="12" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(Z1-Pad13)">
+      <node ref="Z1" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(Z2-Pad1)">
+      <node ref="Z2" pin="1" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(Z2-Pad2)">
+      <node ref="Z2" pin="2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(Z2-Pad12)">
+      <node ref="Z2" pin="12" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(Z2-Pad13)">
+      <node ref="Z2" pin="13" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(Z3-Pad11)">
+      <node ref="Z3" pin="11" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(Z3-Pad12)">
+      <node ref="Z3" pin="12" pintype="input+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(Z3-Pad13)">
+      <node ref="Z3" pin="13" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(Z3-Pad14)">
+      <node ref="Z3" pin="14" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(Z3-Pad15)">
+      <node ref="Z3" pin="15" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(Z4-Pad11)">
+      <node ref="Z4" pin="11" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(Z4-Pad12)">
+      <node ref="Z4" pin="12" pintype="input+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(Z4-Pad13)">
+      <node ref="Z4" pin="13" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(Z4-Pad14)">
+      <node ref="Z4" pin="14" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(Z4-Pad15)">
+      <node ref="Z4" pin="15" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
