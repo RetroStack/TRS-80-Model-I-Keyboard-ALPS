@@ -13,7 +13,7 @@ This project is a faithful reimplementation of the ALPS keyboard PCB of the icon
 
 In the "Latest" folder, you'll find the most up-to-date design files, including:
 
-- Gerber files suitable for popular online PCB manufacturers like [PCBWay](/Latest/TRS80_Model_I_Keyboard_Alps_Full_E1_Gerber_PCBWay.zip) and [JLCPCB](/Latest/TRS80_Model_I_Keyboard_Alps_Full_E1_Gerber_JLCPCB.zip).
+- Gerber files suitable for popular online PCB manufacturers like [PCBWay](/Latest/TRS80_Model_I_Keyboard_Alps_Full_E1_Gerber_PCBWay.zip) and [JLCPCB](/Latest/TRS80_Model_I_Keyboard_Alps_Full_E1_Gerber_JLCPCB.zip). Most manufacturers should be fine with either.
 - A Bill of Materials (BOM) in both [CSV](/Latest/TRS80_Model_I_G_E1_BOM.csv) and [PDF](/Latest/TRS80_Model_I_G_E1_BOM.pdf) formats.
 - Layers exported in PDF and SVG formats.
 - The [full schematics](/Latest/TRS80_Model_I_Keyboard_Alps_Full_E1_Schematics.pdf) of the E1 replica which is 1:1 to the original G board.
