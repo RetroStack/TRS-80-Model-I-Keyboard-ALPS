@@ -12,3 +12,7 @@ Here's the format for the versioning:
 ## 13th Jan 2024 - E1A
 
 Completed test. Fully functional.
+
+## 21st Jan 2024 - E1B
+
+Front silkscreen labels to help with placing keyswitches with keycaps.
