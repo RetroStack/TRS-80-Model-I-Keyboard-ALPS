@@ -19,8 +19,6 @@ In the "Latest" folder, you'll find the most up-to-date design files, including:
 
 ### Implementation
 
-![E1 Replica](/Latest/TRS80_Model_I_Keyboard_ALPS_E1_Photo.png)
-
 E1 has been implemented using KiCAD 7. The KiCAD project files are included in this repository.
 
 ![E1 Replica Front](/Latest/TRS80_Model_I_Keyboard_ALPS_E1_3D_Front.png)
