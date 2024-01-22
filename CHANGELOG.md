@@ -1,4 +1,4 @@
-# TRS-80 Model 1 (Rev G) Replica - E1 - Changelog
+# TRS-80 Model 1 - ALPS Keyboard Replica PCB E1 - Changelog
 
 ## Versioning
 
